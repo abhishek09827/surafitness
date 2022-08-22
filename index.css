@@ -178,7 +178,7 @@ button:hover {
   margin-left: 20px;
 }
 
-@media (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   header {
     flex-direction: column;
   }
