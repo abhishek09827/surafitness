@@ -1,0 +1,28 @@
+<table style="color: white" bgcolor = "#003153" width ="60%", align="right">
+        <tr>
+            <td>
+                sura_fitness@proton.me
+            </td>
+        </tr>
+    </table>
+    <table style="color: white" bgcolor = "#1f30f4", width ="40%", align="left">
+        <tr>
+            <td  align="center">
+                Open Hours: Mon-Sat 10:00AM - 08:00PM
+            </td>
+        </tr>
+    </table>
+    
+
+
+    h1{
+        color:white;
+        background-color: #1f30f4;
+        text-align: center;
+        width: 40%;
+        align-self: left;
+        font-size: xx-small;
+    }
+    body {
+        background: lightblue url("img_tree.gif") no-repeat fixed center;
+      }
