@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sura Fitness</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css"  />
+  </head>
+  <body style="background-color: #083658;">
+    <!-- <table  style="color: white"  bgcolor = "#003153" width ="60%", align="right">
+        <tr>
+            <td style="font-size: 15px;">
+                <a style="color: white;" href = "mailto: sura_fitness@proton.me">
+                <img src="mail.png" width="10" height="10">
+            
+                sura_fitness@proton.me
+                </a>
+            </td>
+        </tr>
+    </table>
+    <table style="color: white" bgcolor = "#1f30f4", width ="40%", align="left">
+        <tr>
+            <td  style="font-size: 15px" align="center" >
+                <img src="clock image.jpg" width="10" height="10">
+               
+            </td>
+        </tr>
+    </table>  -->
+
+    <div class="upperbar">
+      <div class="timing">Open Hours: Mon-Sat 10:00AM - 08:00PM</div>
+      <div class="mail"><a style="color: black;" href="mailto:sura_fitness@proton.me">sura_fitness@proton.me</a>`</div>
+    </div>
+
+    <!-- <h2 style="font-family: Courier New;">
+        <br><br> -->
+
+    <!-- <img src="f&n.jpg" width="50" height="50">
+        Fitness & Nutrition &ensp;
+        <img src="s&c.jpg" width="50" height="50">
+        Strength & Conditioning &ensp;
+        <img src="yoga.jpg" width="50" height="50">
+        Yoga 
+        <span style="float: right" ><font style="font-family: verdana;">
+            <br><br> -->
+
+    <header>
+      <div class="descp">
+        <img src="f&n.jpg" width="50" height="50" />
+        Fitness & Nutrition &ensp;
+        <img src="s&c.jpg" width="50" height="50" />
+        Strength & Conditioning &ensp;
+        <img src="yoga.jpg" width="50" height="50" />
+        Yoga
+      </div>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li><a style="color: black;" href="/surafitness/index.html">HOME</a></li>
+            <li><a  style="color: black;" href="/surafitness/about.html"> ABOUT US</a></li>
+            <li><a style="color: black;" > CONTACT US </a></li>
+            <li><a style="color: black;" href="/surafitness/testimonials.html">TESTIMONIALS </a></li>
+            <li><a style="color: black;" href="/surafitness/login.html">Sign in</a></li>
+
+
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">OTHER</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Online Shopping<br />(Delivery)</a>
+                <a href="#">Sura Maps<br />(android+web based)</a>
+              </div>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- <a style="color: black;" href = http://127.0.0.1:5500/index.html">
+            HOME 
+            </a>&emsp;
+            <a style="color: black;" href = "http://127.0.0.1:5500/about.html">
+            ABOUT US
+            </a> &emsp;
+            CONTACT US &emsp;
+            <a style="color: black;" href = "http://127.0.0.1:5500/testimonials.html">
+            TESTIMONIALS 
+        </a>&emsp; -->
+
+    </div>
+
+<style>
+    body {
+        padding: 0px;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        flex-wrap: wrap;
+    }
+    
+    table {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-collapse: collapse;
+        width: 800px;
+        height: 200px;
+        border: 1px solid #bdc3c7;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    tr {
+        transition: all .2s ease-in;
+        cursor: pointer;
+    }
+    
+    th,
+    td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    #header {
+        background-color: #16a085;
+        color: #fff;
+    }
+    
+    h1 {
+        font-weight: 600;
+        text-align: center;
+        background-color: #16a085;
+        color: #fff;
+        padding: 10px 0px;
+    }
+    
+    tr:hover {
+        background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    @media only screen and (max-width: 768px) {
+        table {
+            width: 90%;
+        }
+    }
+    *{
+   box-sizing:border-box;
+   padding:0;
+   margin: 5px;;
+        }
+body{
+    background: rgb(27,27,27);
+}
+.container{
+    display: flex;
+        justify-content: center;
+}    
+.card{
+    background-color: white;
+    width: 500 px;
+
+   
+    
+    margin: 100px;
+    border-radius: 10px;
+}
+.card-image{
+    background-color: aqua;
+    width: 300px;
+    height: 270px;
+    margin-bottom: 25px;
+    background-size:cover;
+    border-radius: 15px 15px 0 0 ;
+
+
+}
+.car-1{
+    background-image: url(yoga\ 3.jpg);
+}
+.car-2{
+    background-image: url(muscle.jpeg);
+}
+.car-3{
+    background-image: url(strength.jpg);
+}  
+</style>
+
+<body>
+
+    <h1>Choose from our program</h1>
+    <hr>
+
+    <table>
+        <tr id="header">
+            <th></th>
+            <th>Single</th>
+            <th>Couple</th>
+            
+            
+        </tr>
+        <tr>
+            <td>3 Months </td>
+            <td>10,000 </td>
+            <td>16,000 </td>
+            
+
+        </tr>
+       <tr>
+            <td>6+1 Months </td>
+            <td>16,000 </td>
+            <td>30,000 </td>
+            
+
+        </tr>
+        
+        <tr>
+            <td>12+2 Months </td>
+            <td>28,000 </td>
+            <td>55,000 </td>
+            
+
+        </tr>
+        
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    
+
+
+    
+    
+
+    
+        <section class="container">
+             <div class="card">
+                 <div class="card-image car-1"></div>
+                 <h2>Yoga</h2>
+                 <p>Flexibility & Wellbeing</p>
+             </div>
+             <div class="card">
+                 <div class="card-image car-2"></div>
+                 <h2>Workout</h2>
+                 <p>Muscle Gain & Strength</p>
+             </div>
+             <div class="card">
+                 <div class="card-image car-3"></div>
+                  <h2>S & C</h2>
+                 <p>Strength & Mobility</p>
+             </div>
+        </section>
+
+        
+
+
+
+
+           
+
+
+
+    
+    
+    
+   
+</body>
+
+</html>
+
