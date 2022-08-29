@@ -6,98 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sura Fitness</title>
     <script src="index.js"></script>
-    <link rel="stylesheet" href="index.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    />
-    
-    <link rel="stylesheet" href="jquery.flipster.min.css" />
- 
+    <link rel="stylesheet" href="index.css" >
   </head>
-  <body>
-<style>
-      *{margin:0;
-padding:0;
-      }
-        
-.hero{
-width: 100%;
-height: 100vh;
-background: #003f60;
-overflow: hidden;
-}
-.hero .carousel{
-width: 300px;
-margin: 100px auto 0;
-overflow: visible;
-}
-.carousel img{
- -webkit-box-reflect: below 20px linear-
- gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
-}
-@media only screen and (max-width:500px) {
-  .hero{
-width: 100%;
-height: 90vh;
-background: #003f60;
-overflow: hidden;
-}
-.hero .carousel{
-width: 150px;
-margin: 90px auto 0;
-overflow: visible;
-}
-.carousel img{
- -webkit-box-reflect: below 10px linear-
- gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+  
+  <body style="background-color: #083658;">
 
-}
-
-}
-
-
-
- </style>
-<div class="fabs" onclick="toggleBtn()">
-      <div class="action">
-        <i class="fas fa-plus" id="add"></i>
-        <i class="fas fa-times" id="remove" style="display: none"></i>
-      </div>
-
-      <div class="btns">
-        
-        <a href="https://t.me/+kikqZz63hCE5OWI1" class="btn" style="background: #55acee"
-          ><i class="fab fa-telegram"></i
-        ></a>
-        <a href ="https://youtube.com/channel/UCHjktr9jfAZEhgriJFDtB7w" class="btn" style="background: red"
-          ><i class="fab fa-youtube"></i
-        ></a>
-        <a href ="tel:8840723476" class="btn" style="background: black"
-          ><i class="fab fa-phone"></i
-        ></a>
-        <a href="https://api.whatsapp.com/send?phone=918840723476" class="btn" style="background:#25D366;"
-          ><i class="fab fa-whatsapp"></i
-        ></a>
-        <a href="https://www.instagram.com/surafitness?r=nametagl" class="btn" style="background:red;"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        
-      </div>
-    </div>
     <div class="upperbar">
       <div class="timing">Open Hours: Mon-Sat 10:00AM - 08:00PM</div>
-      <div class="mail">
-        <a style="color: black" href="mailto:surafitness.netlify@proton.me"
-          >sura_fitness@proton.me</a
-        >
-      </div>
+      <div class="mail"><a style="color: black;" href="mailto:sura_fitness@proton.me">sura_fitness@proton.me</a>`</div>
     </div>
-
     <header>
-      <a href="brochure.pdf" 
-                width="800" 
-                height="500">
+      <a href="brochure.pdf">
         <div class="descp">
-          <img src="f&n.jpg" width="50" height="50" />
+          <img src="img/f&n.jpg" width="50" height="50" />
           Fitness & Nutrition &ensp;
           <img src="img/s&c.jpg" width="50" height="50" />
           Strength & Conditioning &ensp;
@@ -107,94 +28,231 @@ overflow: visible;
         </a>
       <div class="navbar">
         <nav>
-<img src="menu icon.jpg" class="menu-icon" onclick="togglemenu()">
-          
-          <ul>
-            <li><a style="color: black" href="index.html">HOME</a></li>
-            <li><a style="color: black" href="about.html"> ABOUT US</a></li>
-<!--             <li><a style="color: black"> CONTACT US </a></li> -->
-            <li>
-              <a style="color: black" href="testimonials.html">TESTIMONIALS </a>
-            </li>
-            <li>
-              <a style="color: black" href="login.html">Sign in</a>
-            </li>
+          <img src="menu icon.jpg" class="menu-icon" onclick="togglemenu()">
+          <ul id="menuList">
+            <li><a style="color: black;" href="index.html">HOME</a></li>
+            <li><a  style="color: black;" href="about.html"> ABOUT US</a></li>
+            <!-- <li><a style="color: black;" > CONTACT US </a></li> -->
+            <li><a style="color: black;" href="testimonials.html">TESTIMONIALS </a></li>
+            <li><a style="color: black;" href="login.html">Sign in</a></li>
+            
 
-            <!--<div class="dropdown">
+            <!-- <div class="dropdown">
               <button onclick="myFunction()" class="dropbtn">OTHER</button>
               <div id="myDropdown" class="dropdown-content">
                 <a href="#">Online Shopping<br />(Delivery)</a>
                 <a href="#">Sura Maps<br />(android+web based)</a>
               </div>
-            </div>-->
+            </div> -->
           </ul>
         </nav>
+        
       </div>
     </header>
-
-    <div class="body">
-      <div class="text">
-        <div class="title">
-          <h1>Personalised Coaching</h1>
-        </div>
-        <div class="content">
-          <h3>
-            Start your journey with the best<br />
-            nutrition & fitness experts.<br /><br />
-            Workout from home, get in your
-            <br />best form with customised plan. <br /><br />
-          </h3>
-          <span style="font-size: 20px">
-            <h1>
-              <a style="color: white" href="https://wkf.ms/3cHqQMs"
-                >ENROLL NOW</a
-              >
-            </h1>
-          </span>
-        </div>
-      </div>
-
-      <div class="logo">
-        <a href="brochure.pdf"><img src="img/WhatsApp Image 2022-08-11 at 8.48.04 PM.jpeg" alt="" /></a>
-        <div class="explore">
-          <span style="font-size: 30px; text-align: center">
-            <h1>
-              <a style="color: white" href="explore.html">EXPLORE</a>
-            </h1>
-          </span>
-        </div>
-      </div>
-    </div>
-<br><br><br><br>
-    <div class="explore2"><h1>Our Success Stories</h1></div>
-    <div class="hero">
+ <style>
+        *{
+   box-sizing:border-box;
+   padding:0;
+   margin: 0px;;
+        }
+body{
+    background: rgb(27,27,27);
+    
+}
+.container{
+    display:none;
+        justify-content:center;
         
-      <div class="carousel">
-      
-       <ul>
-          <li><img src= "transformation1.jpeg" alt=""></li>
-          <li><img src= "transformation2.jpeg" alt=""></li>
-          <li><img src= "transformation3.jpeg" alt=""></li>
-          <li><img src= "transformation4.jpeg" alt=""></li>
-          <li><img src= "transformation5.jpeg" alt=""></li>
-          <li><img src= "transformation6.jpeg" alt=""></li>
-          <li><img src= "transformation7.jpeg" alt=""></li>
-          
-       </ul>
-      </div>   
-      
-  </div>
+}    
+.card{
+    background-color: antiquewhite;
+    width: 400px;
+    flex-wrap: wrap;
+    margin: 100px;
+    border-radius: 0px;
+    transition: all .2s ease-in;
     
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
- <script src="jquery.flipster.min.js"></script>
- <script>
-     $('.carousel').flipster({
-        style:'carousel',
-        spacing:-0.3
-     });
- </script>
+}
+.card-image{
+    background-color: aqua;
+    width: 110px;
+    height: 270px;
+    margin-bottom: 0px;
+    background-size:cover;
+    border-radius: 15px 15px 0 0 ;
+    transition: all .2s ease-in;
+    
+
+
+}
+.card:hover {
+        background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+.car-1{
+    background-image: url(sura\ 2.jpeg);
+    width: 450px;
+}
+.car-2{
+    background-image: url(body\ 2.jpeg);
+    width: 450px;
+    height: 500px;
+
+}
+.car-3{
+    background-image: url(strength.jpg);
+}  
+
+@media only screen and (max-width: 768px) {
+        .container{
+            display: grid;
+        
+
+}
+.about{
+  display: none;
+}
+.card{
+    background-color: antiquewhite;
+    
+    
+    
+   
+    
+   
+
+   
+    
+    
+    border-radius: 0px;
+    transition: all .2s ease-in;
+    
+}
+.card1{
+    background-color: #003f60;
+    width: 300px;
+    
+   
+    
+   
+
+   
+    
+    
+    border-radius: 0px;
+    transition: all .2s ease-in;
+    
+}
+.card-image{
+    background-color: aqua;
+    width: 90%;
+
+    
+    
+    
+    
+    transition: all .2s ease-in;
+    
+
+
+}
+
+.card-image1{
+    background-color: aqua;
+    width: 90%;
+    height: 270px;
+
+    
+    
+    background-size:cover;
+    
+    transition: all .2s ease-in;
+    
+
+
+}
+}
+
+
+    </style>
+    
+    <section class="container">
+             <div class="card1">
+              <div class="card-image car-1">
+                
+              </div>
+              
+              <div class="card1">
+              <br><br><br><br><br>
+                <h1><span style="font-size: 50px;color: beige ;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>
+                  &nbsp;&nbsp;&nbsp;Welcome</b></h1>
+                <p><span style="font-size: 20px;text-align:center ;color: white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b><br><br>
+                   It is not just a platform but a judgement free community where you 
+                    can get a life long healthy lifestyle.</b>
+                  </span></p>
+            </div>
+         <br><br><br><br><br>
+          <div class="card1">
+              
+              <h1><span style="font-size: 40px;color: beige ;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>
+               &nbsp; Our Mission</b></h1><br><br><br>
+              <p><span style="font-size: 20px; color: white; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; align-self: justify;"><b>&nbsp;To make world a fit and healthy place, 
+                transform lives with
+                the amalgamation<br>of the latest Artificial intelligence based technology and human knowledge.</b>
+                </span></p><br><br><br>
+          </div>
+          <div class="card1">
+              <div class="card-image1 car-2"></div>
+              
+          </div>
+             </div> 
+     </section>
+ 
+
+
+
+    <table align="left" class="about">
+        <tr>
+            <td  style="background-color: #003f60">
+              <div class="sura">
+                <img style="margin-left: 95px; " src="sura 2.jpeg", align="justify" width="50%", height="60%" >
+              </div>
+            </td>
+            <div class="welcome">
+            <td style="background-color: antiquewhite" width="50%" align="left" >
+              
+                <br><br>
+                <span style="font-size: 50px; font-family:Verdana;"><b>
+                Welcome</b></span><br><span style="font-size: 20px; color: blue; font-family: Aparajita;">
+                <b>It not just a platform but a judgement free community where you <br><br>
+                can get a life long healthy lifestyle.</b><br><br>
+                </span>
+                </div>
+
+            </td>
+        </tr>
+        
+
+         
+        <tr>
+            <td style="background-color: antiquewhite" width="50%" align="left" >
+                
+
+                 <br><br><span style="font-size: 50px;  font-family: Verdana"><b>
+                 Our Mission</b></span><br><span style="font-size: 20px; color: blue;  font-family: Aparajita;"><b><br>
+                  To make world a fit and healthy place, transform lives with
+                &nbsp;the amalgamation<br> of the latest Artificial intelligence based technology and human knowledge.</b>
+                 </span></td>
+            <td style="background-color: #083658">
+              <div class="sura">
+                <img style="margin-left: 195px;"  src="body 2.jpeg", width="50%", height=50%">
+              </div>
+
+            </td>
+        </tr>
+    </table> 
   <script>
-    
       var menuList = document.getElementById("menuList");
       menuList.style.maxHeight = "0px";
       function togglemenu(){
@@ -205,30 +263,8 @@ overflow: visible;
           menuList.style.maxHeight = "0px";
         }
       }
-      function toggleBtn() {
-      const Btns = document.querySelector(".btns");
-      const add = document.getElementById("add");
-      const remove = document.getElementById("remove");
-      const btn = document.querySelector(".btns").querySelectorAll("a");
-      Btns.classList.toggle("open");
-      if (Btns.classList.contains("open")) {
-        remove.style.display = "block";
-        add.style.display = "none";
-        btn.forEach((e, i) => {
-          setTimeout(() => {
-            bottom = 40 * i;
-            e.style.bottom = bottom + "px";
-            console.log(e);
-          }, 100 * i);
-        });
-      } else {
-        add.style.display = "block";
-        remove.style.display = "none";
-        btn.forEach((e, i) => {
-          e.style.bottom = "0px";
-        });
-      }
-    }
-  </script>
-  </body>
+    </script>
+</body
 </html>
+  
+  
