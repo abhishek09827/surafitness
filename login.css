@@ -101,3 +101,25 @@
 #Register{
     left: 450px;
 }
+@media only screen and (max-width:375px) {
+    .hero{
+        height: 90%;
+        width: 90%;
+
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpg);
+        background-position: center;
+        
+        position: relative;
+
+}
+.form-box{
+        width:90%;
+        height: 90%;
+        
+        margin: 6% auto;
+        background: #fff;
+        padding: 5px;
+        overflow: hidden;
+    }
+    
+}
