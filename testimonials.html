@@ -8,361 +8,170 @@
     <!-- <script src="index.js"></script> -->
     <script src="https://cdn.rawgit.com/Keyang/node-csvtojson/d41f44aa/browser/csvtojson.min.js"></script>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="testimonial2.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"/>
   </head>
   <body>
-    <!-- <table  style="color: white"  bgcolor = "#003153" width ="60%", align="right">
-        <tr>
-            <td style="font-size: 15px;">
-                <a style="color: white;" href = "mailto: sura_fitness@proton.me">
-                <img src="mail.png" width="10" height="10">
-            
-                sura_fitness@proton.me
-                </a>
-            </td>
-        </tr>
-    </table>
-    <table style="color: white" bgcolor = "#1f30f4", width ="40%", align="left">
-        <tr>
-            <td  style="font-size: 15px" align="center" >
-                <img src="clock image.jpg" width="10" height="10">
-               
-            </td>
-        </tr>
-    </table>  -->
-
     <div class="upperbar">
-      <div class="timing">Open Hours: Mon-Sat 10:00AM - 08:00PM</div>
-      <div class="mail"><a style="color: black;" href="mailto:surafitness.netlify@proton.me">surafitness.netlify@proton.me</a></div>
-    </div>
-
-    <!-- <h2 style="font-family: Courier New;">
-        <br><br> -->
-
-    <!-- <img src="f&n.jpg" width="50" height="50">
-        Fitness & Nutrition &ensp;
-        <img src="s&c.jpg" width="50" height="50">
-        Strength & Conditioning &ensp;
-        <img src="yoga.jpg" width="50" height="50">
-        Yoga 
-        <span style="float: right" ><font style="font-family: verdana;">
-            <br><br> -->
-
-    <header><a href="brochure.pdf">
-      <div class="descp">
-        <img src="f&n.jpg" width="50" height="50" />
-        Fitness & Nutrition &ensp;
-        <img src="s&c.jpg" width="50" height="50" />
-        Strength & Conditioning &ensp;
-        <img src="yoga.jpg" width="50" height="50" />
-        Yoga
+        <div class="timing">Open Hours: Mon-Sat 10:00AM - 08:00PM</div>
+        <div class="mail"><a style="color: black;" href="mailto:sura_fitness@proton.me">sura_fitness@proton.me</a></div>
       </div>
-      </a>
-      <div class="navbar">
-        <img src="menu icon.jpg" class="menu-icon" onclick="togglemenu()">
-        <nav>
-          <ul id="menuList">
-            <li><a style="color: black;" href="index.html">HOME</a></li>
-            <li><a  style="color: black;" href="about.html"> ABOUT US</a></li>
-            <!-- <li><a style="color: black;" > CONTACT US </a></li> -->
-            <li><a style="color: black;" href="testimonials.html">TESTIMONIALS </a></li>
-            <li><a style="color: black;" href="login.html">Sign in</a></li>
-            
-
-            <!-- <div class="dropdown">
-              <button onclick="myFunction()" class="dropbtn">OTHER</button>
-              <div id="myDropdown" class="dropdown-content">
-                <a href="#">Online Shopping<br />(Delivery)</a>
-                <a href="#">Sura Maps<br />(android+web based)</a>
-              </div>
-            </div> -->
-          </ul>
-        </nav>
-        
-      </div>
-    </header>
-    <style>
-      body {
-          padding: 0px;
-          margin: 0;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+      <!-- <h2 style="font-family: Courier New;">
+          <br><br> -->
+  
+      <!-- <img src="f&n.jpg" width="50" height="50">
+          Fitness & Nutrition &ensp;
+          <img src="s&c.jpg" width="50" height="50">
+          Strength & Conditioning &ensp;
+          <img src="yoga.jpg" width="50" height="50">
+          Yoga 
+          <span style="float: right" ><font style="font-family: verdana;">
+              <br><br> -->
+  
+      <header><a href="brochure.pdf">
+        <div class="descp">
+          <img src="f&n.jpg" width="50" height="50" />
+          Fitness & Nutrition &ensp;
+          <img src="s&c.jpg" width="50" height="50" />
+          Strength & Conditioning &ensp;
+          <img src="yoga.jpg" width="50" height="50" />
+          Yoga
+        </div>
+        </a>
+        <div class="navbar">
+          <img src="menu icon.jpg" class="menu-icon" onclick="togglemenu()">
+          <nav>
+            <ul id="menuList">
+              <li><a style="color: black;" href="index.html">HOME</a></li>
+              <li><a  style="color: black;" href="about.html"> ABOUT US</a></li>
+              <!-- <li><a style="color: black;" > CONTACT US </a></li> -->
+              <li><a style="color: black;" href="testimonials.html">TESTIMONIALS </a></li>
+              <li><a style="color: black;" href="login.html">Sign in</a></li>
+              
+  
+              <!-- <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">OTHER</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Online Shopping<br />(Delivery)</a>
+                  <a href="#">Sura Maps<br />(android+web based)</a>
+                </div>
+              </div> -->
+            </ul>
+          </nav>
           
-      }
-      
-      .explore table {
-          position: relative;
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%);
-          border-collapse: collapse;
-          width: 800px;
-          height: 200px;
-          border: 1px solid #bdc3c7;
-          box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
-      }
-      
-      .explore tr {
-          transition: all .2s ease-in;
-          cursor: pointer;
-      }
-       
-      .explore th, .explore
-      td {
-          padding: 12px;
-          text-align: left;
-          border-bottom: 1px solid #ddd;
-      }
-      
-      #header {
-          background-color: #16a085;
-          color: #fff;
-      }
-      
-      .explore h1 {
-          font-weight: 600;
-          text-align: center;
-          background-color: #16a085;
-          color: #fff;
-          padding: 10px 0px;
-      }
-      
-      .explore tr:hover {
-          background-color: #f5f5f5;
-          transform: scale(1.02);
-          box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
-      }
-  
-      
-      
-          
-      *{
-     box-sizing:border-box;
-     padding:0;
-     margin: 5px;;
-          }
-  body{
-      background: rgb(27,27,27);
-      
-  }
-  .container{
-      display: flex;
-          justify-content: center;
-          
-  }    
-  .card{
-      background-color: white;
-      width: 200px;
-      
-      
-  
-     
-      
-      margin: 30px;
-      border-radius: 10px;
-      transition: all .2s ease-in;
-      
-  }
-  .card-image{
-      background-color: aqua;
-      width: 100px;
-      height: 100px;
-      margin-bottom: 25px;
-      background-size:cover;
-      border-radius: 50%;
-      transition: all .2s ease-in;
-      
-  
-  
-  }
-  .card:hover {
-          background-color: #f5f5f5;
-          transform: scale(1.02);
-          box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
-  }
-  .car-1{
-      background-image: url(WhatsApp\ Image\ 2022-08-26\ at\ 5.26.12\ PM.jpeg);
-  }
-  .car-2{
-      background-image: url(WhatsApp\ Image\ 2022-08-11\ at\ 8.48.04\ PM.jpeg);
-  }
-  .car-3{
-      background-image: url(gaurav.png);
-  }  
-  .car-4{
-      background-image: url(raju.jpeg);
-  } 
-  .car-5{
-      background-image: url(vishal.png);
-  } 
-  .car-6{
-      background-image: url(anamika.png);
-  }     
-  .car-7{
-      background-image: url(abhishek.jpg);
-  }     
-  
-
-    @media only screen and (max-width: 768px) {
-          .container{
-              display: grid;
-          
-  
-  }
-  .explore table{
-      width:90%;
-  }
-  }
-  .card button{
-    padding: 10px;
-    background-color: #ff0268;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
-}
-.card:not(:last-child){
-    margin-bottom: 50px;
-}
-.hide{
-    display: none;
-}
-  </style>
-
-   
-    
-    
-   
-  
-
-
-    <h3 style="font-size: 50px; color: white;"><br><br><br>
+        </div>
+      </header>
+      <h3 style="font-size: 50px; color: white;"><br><br><br>
         TESTIMONIALS
     <br>
 <span style="font-size: 25px;"><a style="color: white;" href = "/index.html">Home</a> | <a style="color: white;" href = "http://127.0.0.1:5500/testimonials.html">Testimonials</a></h3>
-  <section class="container">
-    <div class="card">
-        <div class="card-image car-1"></div>
-        <h2>Raj Kumar<br><h3>IRSEE, Ministry of Railways</h3></h2>
-       
-        <p class="content">I would like to thank Team Sura for their hardwork, to raise my limits and keep challenging me. The diet plan was customised according to whatever was available to me. I was 116 Kgs and I reduced to 73kgs that too age of 58Yrs and the workout given were such that my skin did not sag. I think I will retire from the service with same physique, only difference will be my bald head from my younger days .</p>
-        <button onclick="readMore(this)">Read More</button>
-      </div>
+  
+    <section class="container">
+      <div class="testimonial mySwiper">
+        <div class="testi-content swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img src="WhatsApp\ Image\ 2022-08-26\ at\ 5.26.12\ PM.jpeg" alt="" class="image" />
+            <p  style="color: white;">
+                I would like to thank Team Sura for their hardwork, to raise my limits and keep challenging me. The diet plan was customised according to whatever was available to me. I was 116 Kgs and I reduced to 73kgs that too age of 58Yrs and the workout given were such that my skin did not sag. I think I will retire from the service with same physique, only difference will be my bald head from my younger days .
+            </p>
 
-      <div class="card">
-        <div class="card-image car-4"></div>
-        <h2>Richansha Riju<br><h3>Asst. Commissioner Sales Tax</h3></h2>
-       
-        <p class="content">I loved the dedication of the team and i m thankful to them for introducing me to this journey</p>
-        <button onclick="readMore(this)">Read More</button>
-      </div>
-    <div class="card">
-        <div class="card-image car-5"></div>
-        <h2>Vishal Kant Rai<br><h3>Associate Vice President, Brand Development</h3></h2>
-       
-        <p class="content">I had gained a lot of fat during my preparation days. This affected my breathing pattern, gave me back aches as well as led to rapid hairfall. But i worked with Sura Fitness and they were progressively able to address all these issues. I thank the team for their dedication and support.</p>
-        <button onclick="readMore(this)">Read More</button>
-      </div>
-    <div class="card">
-        <div class="card-image car-6"></div>
-        <h2>Anamika Gupta<br><h3>HouseWife</h3></h2>
-       
-        <p class="content">It has been almost one year and I have lost weight and increased my strength.  I find the coaches – so motivating and supportive.  During the shred I worked with Sura sir and he was very motivating and held me accountable.  The nutritional guidance and meal plans are easy to follow that is realistic and plenty of food. Everyone is extremely – REAL – supportive, FUN, KNOWLEDGABLE and challenging.</p>
-        <button onclick="readMore(this)">Read More</button>
-      </div>
-     <div class="card">
-        <div class="card-image car-7"></div>
-        <h2>Abhishek Bhardwaj
-<br><h3>Student</h3></h2>
-       
-        <p class="content">Due to abdominal fat, I had joined Sura Fitness.Within a month I lost 3 kg with specified plan. Looking forward to get in fit zone soon.
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details">
+              <span class="name" style="color: white;">Raj Kumar</span>
+              <span class="job" style="color: white;">IRSEE, Ministry of Railways</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="raju.jpeg" alt="" class="image" />
+            <p style="color: white;">
+                >I loved the dedication of the team and i m thankful to them for introducing me to this journey
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details" style="color: white;">
+              <span class="name">Richansha riju</span>
+              <span class="job">Asst. Commissioner States Taxes</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="vishal.png" alt="" class="image" />
+            <p style="color: white;">
+                I would like to thank Team Sura for their hard work, to raise my limits and keep challenging me. The diet plan was customised according to whatever was available to me. I was 116 Kgs and I reduced to 73kgs that too age of 58Yrs and the workout given were such that my skin did not sag. I think I will retire from the service with same physique, only difference will be my bald head from my younger days .</p>
+                .
+            </p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details" style="color: white;">
+              <span class="name">Vishal Kant Rai</span>
+              <span class="job">Associate Vice President, Brand Development</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="anamika.png" alt="" class="image" />
+            <p style="color: white;">
+                It has been almost one year and I have lost weight and increased my strength.  I find the coaches – so motivating and supportive.  During the shred I worked with Sura sir and he was very motivating and held me accountable.  The nutritional guidance and meal plans are easy to follow that is realistic and plenty of food. Everyone is extremely – REAL – supportive, FUN, KNOWLEDGABLE and challenging.</p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details" style="color: white;">
+              <span class="name">Anamika Gupta</span>
+              <span class="job">Housewife</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="abhishek.jpg" alt="" class="image" />
+            <p style="color: white;">
+                Due to abdominal fat, I had joined Sura Fitness.Within a month I lost 3 kg with specified plan. Looking forward to get in fit zone soon.
 
 Thanks Sura fitness.</p>
-        <button onclick="readMore(this)">Read More</button>
-      </div>
-      <div class="card">
-        <div class="card-image car-3"></div>
-        <h2>Gaurav Gautam<br><h3>Student</h3></h2>
-       
-        <p class="content">I gained lot of weight and went into depression, and for depression I was admited in hospital, then some one told me about Sura Fitness, I thought of giving it a try, I was given personalised guidance which helped me to perfomed well, get fit and evntually my depression was vanished. Now I'm waiting for my UP SI joining.</p>
-        <button onclick="readMore(this)">Read More</button>
-      </div>
-      
 
-      <div class="card">
-        <div class="card-image car-2"></div>
-        <h2>You could be the next !!!!</h2>
-       
-        <p class="content"></p>
-        <button onclick="readMore(this)">Read More</button>
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details" style="color: white;">
+              <span class="name" >Abhishek Bharadwaj</span>
+              <span class="job" style="color: white;">Student</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="gaurav.png" alt="" class="image" />
+            <p style="color: white;">
+                I gained lot of weight and went into depression, and for depression I was admited in hospital, then some one told me about Sura Fitness, I thought of giving it a try, I was given personalised guidance which helped me to perfomed well, get fit and evntually my depression was vanished. Now I'm waiting for my UP SI joining.</p>
+
+            <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details" style="color: white;">
+              <span class="name" style="color: white;">Gaurav Gautam</span>
+              <span class="job" style="color: white;">Student</span>
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            
+            <p style="color: white;">
+            </p> <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+            <div class="details" style="color: white;">
+              <span class="name" style="color: white; font-size: 30px;">You could be the next !!!</span>
+
+              <span class="job" style="color: white;"></span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
-    
 
-    
-
-      
-    
-
-
-<script>
-  // const url="https://docs.google.com/spreadsheets/d/1aKT4ZM_9q0oTgqUrv1h65vExyRCuAsifOA049bQqtwY/export?format=csv";
-  // const main = document.querySelector("main")
  
-  // fetch(url).then(result=>result.text()).then(function(csvtext){
-  //  return csv().fromString(csvtext);
-
-
-  // }).then(function(csv){
-  //  csv.forEach(function(row) {
+    <script src="swiper-bundle.min.js"></script>
     
-  //   main.innerHTML += "<code>" + JSON.stringify(csv) +"</code>";
-  //   main.innerHTML += "<img  src=" + row.image +"/>";
-  //    main.innerHTML += "<h2>" + row.ClientName +"</h2>";
-  //    main.innerHTML += "<h3>" + row.Profession +"</h3>";
-  //    main.innerHTML += "<p>" + row.description +"</p>";
-     
-     
-
-  //  });
-  // });
-
-
-
-
-
-
-
-
-
-   var menuList = document.getElementById("menuList");
-   menuList.style.maxHeight = "0px";
-   function togglemenu(){
-     if(menuList.style.maxHeight == "0px"){
-       menuList.style.maxHeight = "130px";
-     }
-     else{
-       menuList.style.maxHeight = "0px";
-     }
-   }
-   let noOfCharac = 50;
-let contents = document.querySelectorAll(".content");
-contents.forEach(content => {
-   //If text length is less that noOfCharac... then hide the read more button
-   if(content.textContent.length < noOfCharac){
-       content.nextElementSibling.style.display = "none";
-   }
-   else{
-       let displayText = content.textContent.slice(0,noOfCharac);
-       let moreText = content.textContent.slice(noOfCharac);
-       content.innerHTML = `${displayText}<span class="dots">...</span><span class="hide more">${moreText}</span>`;
-   }
-});
-
-function readMore(btn){
-   let card= btn.parentElement;
-   card.querySelector(".dots").classList.toggle("hide");
-   card.querySelector(".more").classList.toggle("hide");
-   btn.textContent == "Read More" ? btn.textContent = "Read Less" : btn.textContent = "Read More";
-}
- </script> 
- </body>
+    <script src="testimonail2.js"></script>
+  </body>
 </html>
-
