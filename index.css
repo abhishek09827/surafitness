@@ -116,7 +116,7 @@ header {
 }
 
 .navbar ul li {
-  text-decoration: none;
+  text-decoration: wavy;
   padding: 2px;
 }
 .navbar ul li a {
