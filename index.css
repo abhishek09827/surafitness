@@ -243,7 +243,7 @@ button:hover {
   
   
   .navbar ul{
-    background: linear-gradient(#fff,#fff);
+    background: linear-gradient(#003f60,#003f60);
     width: 100%;
     
     position: absolute;
@@ -283,9 +283,7 @@ button:hover {
     
     
   }
-  .home{
-    color: #003f60;
-  }
+  
   .body {
     flex-direction: column-reverse;
   }
