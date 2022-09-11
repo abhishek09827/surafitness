@@ -283,6 +283,9 @@ button:hover {
     
     
   }
+  .home{
+    color: black;
+  }
   .body {
     flex-direction: column-reverse;
   }
