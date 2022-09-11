@@ -227,7 +227,7 @@ button:hover {
 @media only screen and (max-width:500px) {
   header {
     flex-direction:row-reverse;
-    
+
     flex-wrap: wrap;
    
   }
@@ -249,7 +249,7 @@ button:hover {
   
   
   .navbar ul{
-    background: linear-gradient(#003f60,#003f60);
+    background: linear-gradient(black,black);
     width: 100%;
     
     position: absolute;
@@ -349,15 +349,8 @@ th, td {
   
   
 }
-.action {
-  position:relativez;
-  background: rgb(255, 0, 128);
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  box-shadow: 0 5px 7px 0px gray;
-  transition: background-color 0.4s ease-in-out;
-}
+
+
 }
 * {
   padding: 0;
@@ -365,9 +358,9 @@ th, td {
 }
 
 .fabs {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
+  position:fixed;
+  right: 0px;
+  bottom: 0px;
 }
 
 .action {
@@ -422,6 +415,24 @@ th, td {
 }
 .btns.open {
   bottom: 50px;
+}
+@media only screen and (max-width: 500px){
+  .action {
+    position:relative;
+    background: rgb(255, 0, 128);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 5px 7px 0px gray;
+    transition: background-color 0.4s ease-in-out;
+  }
+  
+  .fabs {
+    position:fixed;
+    right: 400px;
+    bottom: 0px;
+  }
+  
 }
 
 
