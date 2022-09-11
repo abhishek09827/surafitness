@@ -100,31 +100,34 @@ header {
 }
 .navbar {
   background-color: white;
+  align-items: center;
   padding-left: 3px;
   border-width: 15px;
-  align-items: center;
-  
   display: flex;
   padding: 20px;
 }
 .navbar ul {
   display: flex;
   flex-direction: row;
-  
   justify-content: space-between;
   list-style: none;
-   margin-left: 240px;
+  margin-left: 240px;
   border: 25px solid #003f60 ;
+  
 }
 
 .navbar ul li {
-  text-decoration: wavy;
+  text-decoration:wavy;
   padding: 2px;
+ 
+
+  
 }
 .navbar ul li a {
   color: white;
   padding: 40px;
 }
+
 
 .navbar ul li a:hover {
   cursor: pointer;
@@ -224,6 +227,7 @@ button:hover {
 @media only screen and (max-width:500px) {
   header {
     flex-direction:row-reverse;
+    
     flex-wrap: wrap;
    
   }
@@ -238,17 +242,20 @@ button:hover {
   }
   
 
- 
+  .descp{
+    flex-direction: column;
+    width:fit-content;
+  }
   
   
   .navbar ul{
-    background: linear-gradient(#003f60,#003f60);
+    background: linear-gradient(black,black);
     width: 100%;
     
     position: absolute;
     flex-direction:row;
     margin-left: 0px;
-    border: 0px;
+  border: 0px;
     
    
     
@@ -260,28 +267,24 @@ button:hover {
     margin-bottom: 5px;
     width: 50%;
     height: 100%;
-    
-   
-    
-    
-  }
-  .nav ul li a{
-    color:#fff;
-   
-    
-    
-  }
   
+   
+    
+   
+    
+    
+  }
+  .home{
+    color: black;
+    
+  }
   #menuList{
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.1s;
   }
-  .navbar ul li a{
-    color: #fff;
-   
-    
-    
-  }
+  
+  
+  
   
   .body {
     flex-direction: column-reverse;
@@ -334,6 +337,26 @@ button:hover {
 th, td {
   border: 1px solid black;
   
+}
+.action i {
+  
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  cursor: pointer;
+  
+  
+}
+.action {
+  position:relativez;
+  background: rgb(255, 0, 128);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 5px 7px 0px gray;
+  transition: background-color 0.4s ease-in-out;
 }
 }
 * {
