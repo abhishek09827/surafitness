@@ -198,7 +198,7 @@ button:hover {
   width: 25px;
 }
 .explore{
-  width: 50%;
+  width: 75%;
   padding: 2px 5px ;
   cursor: pointer;
   display: block;
@@ -208,7 +208,7 @@ button:hover {
   outline: none;
   border-radius: 20px;
   position: relative;
-  margin-right: 500px;
+  
 }
 .explore2{
   width: 85%;
