@@ -251,7 +251,7 @@ button:hover {
   
   
   .navbar ul{
-    background: linear-gradient(black,black);
+    background: linear-gradient(#003f60,#003f60);
     width: 100%;
     
     position: absolute;
