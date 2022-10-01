@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet">
+    
     <title>Sura Fitness</title>
     <script src="index.js"></script>
     <link
@@ -12,11 +14,14 @@
     />
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="jquery.flipster.min.css" />
   </head>
   <body>
-    <style>
+    <!-- JavaScript Bundle with Popper -->
+   <style>
       *{margin:0;
 padding:0;
       }
@@ -59,6 +64,7 @@ overflow: visible;
 
 
  </style>
+ <!-- Toggle button  -->
     <div class="fabs" onclick="toggleBtn()">
       <div class="action">
         <i class="fas fa-plus" id="add"></i>
@@ -85,68 +91,58 @@ overflow: visible;
         
       </div>
     </div>
+    <!-- upperbar -->
     <div class="upperbar">
       <div class="timing">Open Hours: Mon-Sat 10:00AM - 08:00PM</div>
       <div class="mail"><a style="color: black;" href="mailto:sura_fitness@proton.me">sura_fitness@proton.me</a></div>
     </div>
 
 
-    <!-- <header>
-      <a href="brochure.pdf">
-        <div class="descp">
-          <img src="f&n.jpg" width="50" height="50" />
-          Fitness & Nutrition &ensp;
-          <img src="s&c.jpg" width="50" height="50" />
-          Strength & Conditioning &ensp;
-          <img src="yoga.jpg" width="50" height="50" />
-          Yoga
+    <!-- navigation bar using bootstrap -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sura Fitness</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#">Testimonials</a>
+            <a class="nav-link">Sign in</a>
+            <a class="nav-link">Blog</a>
+          </div>
         </div>
-        </a> -->
-      <div class="navbar">
-        <nav>
-          <img src="menu icon.jpg" class="menu-icon" onclick="togglemenu()">
-          <ul id="menuList">
-            
-            <li><a class="home", style="color: white;" href="index.html">HOME</a></li>
-            <li><a class="home", style="color: white;" href="about.html"> ABOUT US</a></li>
-            <!-- <li><a style="color: black;" > CONTACT US </a></li> -->
-            <li><a class="home" style="color: white;" href="testimonials.html">TESTIMONIALS </a></li>
-            <li><a class="home" style="color: white;" href="login.html">Sign in</a></li>
-            <li><a class="home" style="color: white;" href="https://surafitness1.blogspot.com/">Blogs</a></li>
-            
-
-            <!-- <div class="dropdown">
-              <button onclick="myFunction()" class="dropbtn">OTHER</button>
-              <div id="myDropdown" class="dropdown-content">
-                <a href="#">Online Shopping<br />(Delivery)</a>
-                <a href="#">Sura Maps<br />(android+web based)</a>
-              </div>
-            </div> -->
-          </ul>
-        </nav>
-        
       </div>
-      
+    </nav>
     </header>
+    <!-- Text -->
     <div class="body">
       <div class="text">
         <div class="title">
           <h1>Personalised Coaching</h1>
+          <hr>
         </div>
         <div class="content">
           <h3>
             Start your journey with the best<br />
             nutrition & fitness experts.<br /><br />
             Workout from home, get in your
-            <br />best form with customised plan. <br /><br />
-
+            <br />best form with customised plan. <br />
+<br><br>
+            <!-- Explore buttton -->
           </h3><span style="font-size: 20px;">
-          <h1><a style="color: white;" href="https://wkf.ms/3cHqQMs">ENROLL NOW<br /><br /><br /><br /><br /></a></h1>
+          <h1><a style="color: white;" href="https://wkf.ms/3cHqQMs"><button class="btn2">ENROLL NOW</button><br /></a></h1>
           
           </span>
+          
+          
+
+
         </div>
       </div>
-
+        <!-- Logo Image -->
       <div class="logo">
         <img src="WhatsApp Image 2022-08-11 at 8.48.04 PM.jpeg" alt="" />
 		<div class="explore">
@@ -156,17 +152,13 @@ overflow: visible;
 
             
             </span>
-          </div>
-          
-            
-            
-            
+          </div>    
       </div>
     </div>
-    <br><br><br><br>
+    <hr id="hel">
     <div class="explore2"><h1>Our Success Stories</h1></div>
     <div class="hero">
-        
+        <!-- slider using js -->
       <div class="carousel">
       
        <ul>
@@ -182,10 +174,10 @@ overflow: visible;
       </div>   
       
   </div>
-    
+    <!-- Java script -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
- <script src="jquery.flipster.min.js"></script>
- <script>
+    <script src="jquery.flipster.min.js"></script>
+    <script>
      $('.carousel').flipster({
         style:'carousel',
         spacing:-0.3
