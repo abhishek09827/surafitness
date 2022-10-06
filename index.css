@@ -126,6 +126,7 @@ header {
   height: 400px;
   margin-right: 400px;
   margin: 165px;
+  margin-bottom: 0px;
 }
 .title {
   color: black;
@@ -164,6 +165,7 @@ header {
   cursor: pointer;
   display: block;
   margin: 280px;
+  margin-top: 0px;
   background: linear-gradient(to right, #ff105f, #ffad06);
   border: 0;
   outline: none;
