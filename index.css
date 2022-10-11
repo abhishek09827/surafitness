@@ -414,7 +414,12 @@ th, td {
 .btns.open {
   bottom: 50px;
 }
+@media only screen and (max-width: 768px){
+  .blog{
+    display: none;
+  }
 
+}
 
 
 
