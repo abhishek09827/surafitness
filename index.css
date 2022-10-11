@@ -225,7 +225,7 @@ header {
   border-radius: 20px;
   position: relative;
 }
-@media only screen and (max-width:390px) {
+@media only screen and (max-width:415px) {
   header {
     flex-direction:row-reverse;
 
