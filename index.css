@@ -225,7 +225,7 @@ header {
   border-radius: 20px;
   position: relative;
 }
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:390px) {
   header {
     flex-direction:row-reverse;
 
@@ -415,7 +415,7 @@ th, td {
 .btns.open {
   bottom: 50px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 400px){
   .blog{
     margin-left: 20px;
   }
