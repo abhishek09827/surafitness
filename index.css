@@ -232,6 +232,10 @@ header {
     flex-wrap: wrap;
    
   }
+  .content{
+    width: 250px;
+    height: 600px;
+  }
  
   
  
@@ -270,13 +274,13 @@ header {
     padding-left: 50px;
   }
   .logo img {
-    height: 300px;
+    height: 350px;
     padding-left: 0px;
     flex-wrap: nowrap;
     height: 400px;
     margin-right: 0px;
     margin: 0px;
-    width: 320px;
+    width: 380px;
   
   }
   .sura img{
@@ -294,12 +298,14 @@ header {
   padding: 5px 20px ;
   cursor: pointer;
   display: block;
+  margin-left: 10px;
   margin: auto;
   background: linear-gradient(to right, #ff105f, #ffad06);
   border: 0;
   outline: none;
   border-radius: 20px;
   position: relative;
+  
 }
 .explore2{
   width: 85%;
@@ -415,9 +421,12 @@ th, td {
 .btns.open {
   bottom: 50px;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 415px){
   .blog{
-    margin-left: 20px;
+    margin-left: 0px;
+  }
+  .blog_div{
+    margin-top: -150px
   }
 
 }
