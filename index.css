@@ -424,7 +424,7 @@ th, td {
 @media only screen and (max-width: 415px){
   .blog{
     margin-left: 0px;
-    display: none;
+    
   }
   .blog_div{
     margin-top: -150px
