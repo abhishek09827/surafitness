@@ -428,6 +428,12 @@ th, td {
   margin-left: 120px;
   margin-right: 60px;
 }
+#frame_video{
+  margin: auto;
+  width: 90%;
+  height: 700px; 
+  padding-left: 150px
+}
 @media only screen and (max-width: 415px){
   
   #frame{
