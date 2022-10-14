@@ -442,6 +442,12 @@ th, td {
     height: 1000px;
 
   }
+  #frame_video{
+  margin: auto;
+  width: 90%;
+  height: 300px; 
+  padding-left: 50px;
+}
 
 }
 
